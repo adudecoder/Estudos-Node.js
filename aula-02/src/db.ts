@@ -2,7 +2,7 @@
 
 import { Pool } from 'pg';
 
-const connectionString = 'postgres://tuuigfiu:qK1qc7bUNw09BQ6dB0A_PT9-EYUm-Sxb@motty.db.elephantsql.com/tuuigfiu';
+const connectionString = '';
 const db = new Pool({ connectionString });
 
 export default db;
